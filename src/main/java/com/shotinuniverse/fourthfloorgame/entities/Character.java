@@ -14,8 +14,6 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Character extends Points {
 
     @Field
-    int speed;
-    @Field
     boolean speed_changes;
 
 }
