@@ -15,7 +15,8 @@
     "physics": {
       "_id": 1,
       "_class": "com.shotinuniverse.fourthfloorgame.physics",
-      "speed_run": 1,
+      "speedX": 1,
+      "speedY": 1,
       "speed_dash": 3,
       "height_jump": 2
     },

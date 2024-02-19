@@ -20,4 +20,10 @@ public abstract class Points extends ServicesFields {
 
     @Field("height")
     int height;
+
+    @Field("speedX")
+    int speedX;
+
+    @Field("speedY")
+    int speedY;
 }
