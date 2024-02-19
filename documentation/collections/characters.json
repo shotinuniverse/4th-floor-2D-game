@@ -1,0 +1,77 @@
+[
+  {
+    "_id": 1,
+    "_class": "com.shotinuniverse.fourthfloorgame.char",
+    "weight": 20,
+    "height": 30,
+    "characteristics": {
+      "_id": 1,
+      "_class": "com.shotinuniverse.fourthfloorgame.characteristics",
+      "level": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "intelligence": 1
+    },
+    "physics": {
+      "_id": 1,
+      "_class": "com.shotinuniverse.fourthfloorgame.physics",
+      "speed_run": 1,
+      "speed_dash": 3,
+      "height_jump": 2
+    },
+    "weapon": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.weapon",
+        "name": "small dagger",
+        "strength": 1,
+        "accuracy": 10,
+        "length": 3,
+        "speed": 0.1,
+        "durability": 70,
+        "hand": "right",
+        "active": true
+      },
+      {
+        "_id": 2,
+        "_class": "com.shotinuniverse.fourthfloorgame.weapon",
+        "name": "small dagger",
+        "strength": 1,
+        "accuracy": 10,
+        "length": 3,
+        "speed": 0.1,
+        "durability": 80,
+        "hand": "left",
+        "active": true
+      }
+    ],
+    "armor": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.armor",
+        "name": "rag pants",
+        "cold_weapon_protection": 0,
+        "range_weapon_protection": 0,
+        "warm_protection": 3,
+        "cold_protection": 0,
+        "moisture_protection": 1,
+        "durability": 30,
+        "active": true
+      }
+    ],
+    "inventory": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.armor",
+        "name": "small shield",
+        "cold_weapon_protection": 2,
+        "range_weapon_protection": 3,
+        "warm_protection": 0,
+        "cold_protection": 0,
+        "moisture_protection": 0,
+        "durability": 50,
+        "active": false
+      }
+    ]
+  }
+]
