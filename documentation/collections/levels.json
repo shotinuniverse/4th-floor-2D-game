@@ -1,0 +1,73 @@
+[
+  {
+    "_id": 1,
+    "_class": "com.shotinuniverse.fourthfloorgame.level",
+    "name": "forest",
+    "number": 1,
+    "textures": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.texture",
+        "name": "platform 1",
+        "pointX": 1,
+        "pointY": 100,
+        "width": 30,
+        "height": 20
+      },
+      {
+        "_id": 2,
+        "_class": "com.shotinuniverse.fourthfloorgame.texture",
+        "name": "platform 2",
+        "pointX": 100,
+        "pointY": 100,
+        "width": 50,
+        "height": 20
+      },
+      {
+        "_id": 3,
+        "_class": "com.shotinuniverse.fourthfloorgame.texture",
+        "name": "platform 3",
+        "pointX": 250,
+        "pointY": 90,
+        "width": 40,
+        "height": 20
+      }
+    ],
+    "mobs": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.mob",
+        "name": "mob 1",
+        "pointX": 110,
+        "pointY": 80,
+        "width": 20,
+        "height": 15,
+        "moving": false,
+        "type": "simple"
+      },
+      {
+        "_id": 2,
+        "_class": "com.shotinuniverse.fourthfloorgame.mob",
+        "name": "mob 2",
+        "pointX": 270,
+        "pointY": 50,
+        "width": 20,
+        "height": 15,
+        "moving": true,
+        "endpointX": 270,
+        "endpointY": 80,
+        "type": "simple"
+      }
+    ],
+    "characters": [
+      {
+        "_id": 1,
+        "_class": "com.shotinuniverse.fourthfloorgame.charPoints",
+        "pointX": 3,
+        "pointY": 99,
+        "speed": -1,
+        "speed_changes": false
+      }
+    ]
+  }
+]
